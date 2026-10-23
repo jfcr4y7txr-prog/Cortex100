@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cortex 100 – The 100 best AI tools and what they do</title>
+  <meta name="description" content="A curated directory of the 100 best AI systems and apps, with a plain-language summary of what each one is good for.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="logo" href="#top">Cortex 100</a>
+    <nav>
+      <a href="#directory">Directory</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <h1>The 100 best AI tools.<br>Know what each one is for.</h1>
+      <p>Assistants, coding, images, video, audio and more. Find the right tool in seconds.</p>
+      <a class="btn" href="#directory">Browse the directory</a>
+    </section>
+
+    <section id="directory" class="directory">
+      <div class="controls">
+        <input id="search" type="search" placeholder="Search tools or tasks" aria-label="Search tools or tasks">
+        <div id="filters" class="filters" role="group" aria-label="Filter by category"></div>
+      </div>
+      <p id="count" class="count" aria-live="polite"></p>
+      <div id="grid" class="grid"></div>
+      <p id="empty" class="empty" hidden>No tools match your search. Try a different word or choose All.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Cortex 100 is an independent list. Tools and features change quickly, so check each provider for current details.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
